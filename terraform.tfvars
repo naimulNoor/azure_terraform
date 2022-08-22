@@ -1,0 +1,5 @@
+resource_group_name = "shaw_aks_terraform_rg"
+location            = "East US"
+cluster_name        = "terraform-aks"
+kubernetes_version  = "1.24.0"
+node_resource_group = "shaw_aks_terraform_resources_rg"
