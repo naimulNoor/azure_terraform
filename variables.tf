@@ -24,17 +24,14 @@ variable "node_resource_group" {
   description = "RG name for cluster resources in Azure"
 }
 
-##docker secret
-variable "registry_email" {
-  default = "rafat@gmail.com"
+##SP secret
+variable "subsid" {
+  default = "xxxx"
 }
-variable "registry_password" {
-  default = "4DrcQoROd3rNmr9An8/3BK03bBhMgZLQ"
+variable "clientId" {
+  default = "xxxx"
 }
-variable "registry_server" {
-  default = "acrfinal456.azurecr.io"
+variable "tenantId" {
+  default = "xxxx"
 }
-variable "registry_username" {
-  default = "acrfinal456"
 
-}
